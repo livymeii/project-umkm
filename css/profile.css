@@ -1,0 +1,315 @@
+body {
+    color: #555;
+    background: #f1f2f7;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+/* Profile Container */
+.profile-nav, .profile-info {
+    margin-top: 30px;
+}
+
+.profile-nav .user-heading {
+    background: #666; /* abu gelap */
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-nav .user-heading.round a {
+    border-radius: 50%;
+    border: 10px solid rgba(255,255,255,0.3);
+    display: inline-block;
+}
+
+.profile-nav .user-heading a img {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+}
+
+.profile-nav .user-heading h1 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.profile-nav .user-heading p {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.profile-nav ul {
+    margin-top: 1px;
+    list-style: none;
+    padding: 0;
+}
+
+.profile-nav ul > li {
+    border-bottom: 1px solid #ebeae6;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.profile-nav ul > li:last-child {
+    border-bottom: none;
+}
+
+.profile-nav ul > li > a {
+    border-radius: 0;
+    color: #666;
+    border-left: 5px solid #fff;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.profile-nav ul > li > a:hover,
+.profile-nav ul > li > a:focus,
+.profile-nav ul li.active a {
+    background: #f0f0f0 !important;
+    border-left: 5px solid #888;
+    color: #444 !important;
+}
+
+.profile-nav ul > li > a > i {
+    font-size: 16px;
+    padding-right: 10px;
+    color: #aaa;
+}
+
+.r-activity {
+    margin: 6px 0 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.p-text-area, .p-text-area:focus {
+    border: none;
+    font-weight: 300;
+    box-shadow: none;
+    color: #999;
+    font-size: 16px;
+}
+
+.profile-info .panel-footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7ebee;
+}
+
+.profile-info .panel-footer ul li a {
+    color: #666;
+}
+
+.bio-graph-heading {
+    background: #666; /* abu gelap */
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    padding: 40px 110px;
+    border-radius: 4px 4px 0 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bio-graph-info {
+    color: #777;
+}
+
+.bio-graph-info h1 {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+
+.bio-row {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.bio-row p span {
+    width: 100px;
+    display: inline-block;
+    font-weight: 600;
+    color: #555;
+}
+
+.bio-chart, .bio-desk {
+    float: left;
+}
+
+.bio-chart {
+    width: 40%;
+}
+
+.bio-desk {
+    width: 60%;
+}
+
+.bio-desk h4 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #444;
+}
+
+/* Summary */
+.summary-head {
+    background: #555; /* abu gelap */
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.summary-head h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.summary-head p {
+    color: rgba(255,255,255,0.7);
+}
+
+ul.summary-list {
+    display: inline-block;
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+ul.summary-list > li {
+    display: inline-block;
+    width: 19.5%;
+    text-align: center;
+    border-right: 1px solid #eaeaea;
+}
+
+ul.summary-list > li:last-child {
+    border-right: none;
+}
+
+ul.summary-list > li > a {
+    padding: 10px 0;
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+}
+
+ul.summary-list > li > a > i {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+/* Activity */
+.activity {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.activity.alt {
+    width: 100%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.activity span, .activity.alt span {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    background: #bbb; /* abu soft */
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+}
+
+.activity.alt span {
+    float: right;
+}
+
+.activity h4 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.activity p {
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.activity .activity-desk {
+    margin-left: 70px;
+    position: relative;
+}
+
+.activity.alt .activity-desk {
+    margin-right: 70px;
+    position: relative;
+}
+
+.activity .activity-desk .panel,
+.activity.alt .activity-desk .panel {
+    background: #f4f4f4;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.activity .activity-desk .arrow {
+    border-right: 8px solid #f4f4f4 !important;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    display: block;
+    height: 0;
+    left: -7px;
+    position: absolute;
+    top: 13px;
+    width: 0;
+}
+
+.activity-desk .arrow-alt {
+    border-left: 8px solid #f4f4f4 !important;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    display: block;
+    height: 0;
+    right: -7px;
+    position: absolute;
+    top: 13px;
+    width: 0;
+}
+
+.activity .activity-desk i,
+.activity.alt .activity-desk i {
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #999;
+}
+
+.activity-desk .album {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.activity-desk .album a {
+    margin-right: 10px;
+}
+
+.activity-desk .album a:last-child {
+    margin-right: 0;
+}
